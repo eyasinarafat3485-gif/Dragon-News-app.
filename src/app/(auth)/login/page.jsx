@@ -22,6 +22,12 @@ const LoginPage = () => {
             callbackURL: "/",
         });
         console.log(res, error);
+        if (error) {
+            toast.error(error.message)
+        }
+        if (res) {
+            toast.success("Login succesfully done.")
+        }
     }
 
 
