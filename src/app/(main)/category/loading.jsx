@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Loading = () => {
+    return (
+        <div className='flex h-[85vh] items-center justify-center'>
+            Categoy loading 
+            <span className="loading loading-bars loading-xl"></span>
+        </div>
+    );
+};
+
+export default Loading;
